@@ -1,0 +1,27 @@
+@use 'helpers' as *;
+
+:root {
+    // Цвета
+    --color-light: #FFFFFF;
+    --color-dark: #000000;
+    --color-light-purple: #552D8A;
+    --color-dark-purple: #2D1F41;
+
+    // Рамки
+    --border: solid 1rem var(--color-dark);
+
+    // Шрифты
+    --font-family-base: 'Inter', sans-serif;
+
+    // Размер макета
+    --container-width: #{rem(1070)};
+    --container-padding-x: #{rem(40)};
+    --section-padding-y: #{rem(35)};
+
+    // Переход
+    --transition-duration: 0.2s;
+
+    // @include laptop {
+    //     --container-width: ;//#{rem(1600)}; если сетка будет сильно меньше
+    // }
+}

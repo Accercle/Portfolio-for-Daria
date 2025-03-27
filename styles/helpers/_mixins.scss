@@ -6,6 +6,29 @@
   font-size: fluid($max, $min);
 }
 
+@mixin flex-center($isInLine: false) { 
+    @if $isInLine {
+        display: inline-flex;
+    } @else {
+        display: flex;
+    }
+
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+@mixin square($size) {
+    width: $size;
+    height: $size;
+}
+
 @mixin visually-hidden {
     position: absolute !important;
     width: 1px !important;

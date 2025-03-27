@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Accercle/template-css#readme",
   "devDependencies": {
     "sass": "^1.85.1"
+  },
+  "dependencies": {
+    "swiper": "^11.2.6"
   }
 }
